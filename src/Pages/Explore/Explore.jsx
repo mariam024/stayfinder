@@ -1,11 +1,11 @@
 import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "react-router";
-import HeroSearch from "./HeroSearch";
-import ResultsHeader from "./ResultsHeader";
-import HotelCard from "./HotelCard";
-import SkeletonCard from "./SkeletonCard";
-import EmptyState from "./EmptyState";
-import HotelDetailsModal from "./HotelDetailsModal";
+import HeroSearch from "./Herosearch";
+import ResultsHeader from "./Resultsheader";
+import HotelCard from "./Hotelcard";
+import SkeletonCard from "./Skeletoncard";
+import EmptyState from "./Emptystate";
+import HotelDetailsModal from "./Hoteldetailsmodal";
 import FavoriteAuthModal from "./FavoriteAuthModal";
 import useHotelSearch from "../../Services/useHotelSearch";
 import useDebouncedValue from "../../Services/useDebouncedValue";
