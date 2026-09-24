@@ -1,7 +1,7 @@
 import { forwardRef } from 'react'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
-import AboutImage from '../../Assets/aboutImg.svg'
+import AboutImage from '../../assets/aboutImg.svg'
 
 const About = forwardRef(function About(_props, ref) {
     return (

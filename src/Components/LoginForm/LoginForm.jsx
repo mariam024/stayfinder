@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import loginImage from '../../Assets/loginImg.svg'
+import loginImage from '../../assets/loginImg.svg'
 import { Eye, EyeOff } from 'lucide-react'
 import useLoginForm from '../../Services/useLoginForm'
 
