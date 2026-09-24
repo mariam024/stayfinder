@@ -26,8 +26,8 @@ function foursquareProxy(apiKey) {
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  const foursquareKey = env.VITE_FOURSQUARE_API_KEY ?? env.FOURSQUARE_API_KEY ?? ''
-
+  const foursquareKey = env.FOURSQUARE_API_KEY ?? ''
+  
   return {
     plugins: [tailwindcss(), react()],
     server: {
